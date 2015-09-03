@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!DOCTYPE peta SYSTEM "galeri.dtd">
+
+<galeri>
+	<foto>
+		<pict>picture/galeri1.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri2.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri3.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri4.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri5.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri6.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri7.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri8.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri9.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri10.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri11.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri12.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri13.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri14.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri15.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri16.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri17.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri18.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri19.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri20.jpg</pict>
+	</foto>
+	<foto>
+		<pict>picture/galeri21.jpg</pict>
+	</foto>
+</galeri>

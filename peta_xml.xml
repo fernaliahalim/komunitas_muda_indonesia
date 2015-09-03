@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!DOCTYPE peta SYSTEM "peta.dtd">
+
+<peta>
+	<indonesia>
+		<provinsi>Prov. Nanggroe Aceh Darussalam</provinsi>
+		<kabupaten>Kab. Aceh Utara</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Riau</provinsi>
+		<kabupaten>Kab. Bengkalis</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Sumatera Selatan</provinsi>
+		<kabupaten>Kab. Muara Enim</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Sumatera Selatan</provinsi>
+		<kabupaten>Kab. Musi Banyuasin</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Lampung</provinsi>
+		<kabupaten>Kab. Tulang Bawang Barat</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Banten</provinsi>
+		<kabupaten>Kab. Lebak</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Jawa Timur</provinsi>
+		<kabupaten>Kab. Gresik</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Kalimantan Barat</provinsi>
+		<kabupaten>Kab. Kapuas Hulu</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Kalimantan Timur</provinsi>
+		<kabupaten>Kab. Paser</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Sulawesi Utara</provinsi>
+		<kabupaten>Kab. Sangihe</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Sulawesi Tengah</provinsi>
+		<kabupaten>Kab. Banggai</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Sulawesi Barat</provinsi>
+		<kabupaten>Kab. Majene</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Nusa Tenggara Barat</provinsi>
+		<kabupaten>Kab. Bima</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Nusa Tenggara Timur</provinsi>
+		<kabupaten>Kab. Rote Ndao</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Maluku Utara</provinsi>
+		<kabupaten>Kab. Halmahera Selatan</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Maluku</provinsi>
+		<kabupaten>Kab. Maluku Tenggara Barat</kabupaten>
+	</indonesia>
+	<indonesia>
+		<provinsi>Prov. Papua Barat</provinsi>
+		<kabupaten>Kab. Fakfak</kabupaten>
+	</indonesia>
+</peta>

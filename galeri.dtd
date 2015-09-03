@@ -1,0 +1,3 @@
+<!ELEMENT galeri (foto)*>
+<!ELEMENT foto (pict)>
+<!ELEMENT pict (#PCDATA)>

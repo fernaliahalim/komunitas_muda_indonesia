@@ -1,0 +1,446 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Pendaftaran</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="css_style.css" />
+</head>
+
+<body>
+	<div id="main" align="center">
+		<!--<div id="wrapper">-->
+		<div id="container" align="center">
+			<div id="header" align="left">
+				<div id="logo">
+					<img src="picture/logo.PNG" width="30%">
+				</div>
+				<div id="menu_header">
+					<a href="profil.htm"><font color="#CC0000"><b>Akun Saya</b></font></a> | <a href="Sitemap.htm">Sitemap</a><br><br>
+				</div>
+				<div class="clear">
+				</div>
+			</div>
+			<hr />
+			
+			<div id="mainMenu">
+				<ul>
+					<li><a href="index.htm">Beranda</a></li> 
+					<li><a href="tentangkami.htm">Tentang Kami</a>
+						<ul>
+							<li><a href="visidanmisi.htm">Visi dan Misi</a><li>
+							<li><a href="sejarah.htm">Sejarah</a></li>
+							<li><a href="kemitraan.htm">Kemitraan</a></li>
+						</ul>
+					</li> 
+					<li><a href="kegiatan.htm">Kegiatan</a>
+						<ul>
+							<li><a href="lokasi.htm">Lokasi</a></li>
+							<li><a href="galerifoto.htm">Galeri Foto</a></li>
+						</ul>
+					</li> 
+					<li><a href="mariBergabung.htm">Mari Bergabung</a>
+						<ul>
+							<li><a href="volunteer.htm">Volunteer</a></li>
+							<li><a href="pengajar.htm">Pengajar</a></li>
+						</ul>
+					</li> 
+					<li><a href="kabarTerbaru.htm">Kabar Terbaru</a></li> 
+					<li><a href="hubungiKami.htm">Hubungi Kami</a></li>
+				</ul>
+			</div>
+			<hr />
+			<div id="path">
+				<a href="index.htm">Beranda</a> > 
+				<a href="login.htm">Login</a> > 
+				<a href="profil.htm">Profil</a> > 
+				<a href="pendaftaran.htm">Pendaftaran</a> > 
+			</div>
+			<div id="content">
+				<br />
+				<div class="col_43" style="text-align:justify; padding-left:100px;">
+				<h1><font face="Times New Roman, Times, serif">Formulir Aplikasi Pengajar </font></h1>
+				<img src="picture/head.png" width="890px" height="3px" /> <br /> <br /> <br />
+				
+				<div class="col" style="margin-top:10px ">
+					<div class="col col_bgcolor2">
+						Informasi Dasar 
+					</div>
+					<div class="clear"></div>
+					<br /> <br /><br />
+					<div class="col" style="padding-left:80px; width:900px">
+					<form onSubmit="return validasi();">
+					<b>Nama Lengkap<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp; &nbsp; &nbsp; 
+						<input type="text" size="25px" maxlength="20" id="nama1" onKeyUp="validasi_Element(this);" /> &nbsp; &nbsp;
+						<input type="text" size="25px" maxlength="20" id="nama2" onKeyUp="validasi_Element(this);" /> &nbsp; &nbsp;
+						<input type="text" size="25px" maxlength="20" id="nama3" onKeyUp="validasi_Element(this);" />
+					<br /><br /><br />
+					<b>Tanggal Lahir<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp; &nbsp;
+						&nbsp; &nbsp;
+						<span id="tgl"></span>
+						
+						&nbsp; &nbsp;
+						<span id="bulan"></span>
+						
+						&nbsp; &nbsp;
+						<span id="tahun"></span>
+						<br /><br /><br />
+					<b>Jenis Kelamin<font color="#FF0000">*</font> &nbsp; &nbsp; </b> 
+						&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" checked value="Laki-laki" name="jenkel" 
+							onChange="validasi_Element(this);" id="jk" />Laki-laki<br />&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" value="Perempuan" name="jenkel" 
+							onChange="validasi_Element(this);" id="jk"/>Perempuan
+						<br /><br />
+					<b>Anda WNI?<font color="#FF0000">*</font> &nbsp; &nbsp; </b> 
+						&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" checked value="ya" name="wni" />Ya<br />&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" value="tidak" name="wni" />Tidak
+						<br /><br />
+					<b>No. KTP<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+						<input type="text" maxlength="60" size="60px" 
+							id="ktp" onKeyUp="validasi_Element(this);" /><br /><br /><br />
+					<b>Status Perkawinan<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp;
+						<input type="radio" checked value="belum" name="status" />Belum Menikah<br />&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" value="menikah" name="status" />Sudah Menikah
+						<br /><br /><br /><br />
+						<div class="col_right" style="margin-right:130px ">
+							<button type="submit" value="OK" style="background-color:#99CC00 ">Simpan</button>
+						</div>
+						<div class="clear"></div>
+						<br /><br /><br /><br /><br /><br />
+					</form>
+					
+					</div>
+					<div class="col col_bgcolor2">
+						Profil Online 
+					</div>
+					<div class="clear"></div>
+					<br /> <br /><br />
+					<div class="col" style="padding-left:80px; width:900px ">
+					<form onSubmit="return validasi();"></form>
+						<b>Website/Blog<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+						<input type="text" maxlength="60" size="60px" 
+							id="blog" onKeyUp="validasi_Element(this);" /><br /><br /><br />
+						<b>Facebook Profile<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp;&nbsp; &nbsp; &nbsp;
+						<input type="text" maxlength="60" size="60px"
+							id="fb" onKeyUp="validasi_Element(this);" /><br /><br /><br />
+						<b>Twitter Profile<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+						<input type="text" maxlength="60" size="60px"
+							id="twitter" onKeyUp="validasi_Element(this);" /><br /><br /><br /><br />
+						<div class="col_right" style="margin-right:130px ">
+							<button type="submit" value="OK" style="background-color:#99CC00 ">Simpan</button>
+						</div>
+						<div class="clear"></div>
+					</form>
+						<br /><br /><br /><br /><br /><br />
+					</div>
+					<div class="clear"></div>
+					
+					
+					<div class="col col_bgcolor2">
+						Foto Profil 
+					</div>
+					<div class="clear"></div>
+					<br /> <br /><br />
+					<div class="col" style="padding-left:260px; text-align:center; margin:auto">
+						<div class="col">
+							<img src="picture/profil1.png" / width="250px" height="250px">
+						</div>
+						<div class="col" style="padding-top:50px;margin-top:50px;padding-left:30px; ">
+							<button style="background-color:#999999; height:40px; padding:10px ">Browse</button>
+						</div>
+						<div class="clear"></div>
+						<br /><br /><br /><br />
+					</div>
+					<div class="clear"></div>
+					
+					<div class="col col_bgcolor2">
+						Informasi Kontak
+					</div>
+					<div class="clear"></div>
+					<br /> <br /><br />
+					<div class="col" style="padding-left:80px; width:900px ">
+					<form onSubmit="return validasi();">
+						<b>Negara<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+						&nbsp; &nbsp; &nbsp; 
+							<input type="text" size="60px" maxlength="60" id="negara"
+								onKeyUp="validasi_Element(this);"/><br /><br /><br />
+						<b>No. HP<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+						&nbsp; &nbsp; &nbsp; &nbsp;
+							<input type="text" size="60px" maxlength="60" id="HP"
+								onKeyUp="validasi_Element(this);" /><br /><br /><br />
+						<b>Telp. Rumah/HP2<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp;&nbsp;
+							<input type="text" size="60px" maxlength="60" id="tlp"
+								onKeyUp="validasi_Element(this);"/><br /><br /><br />
+						<b>Alamat<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+						&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+							<textarea cols="44" id="almt"
+								onKeyUp="validasi_Element(this);" ></textarea><br /><br /><br /><br /><br />
+						<div class="col_right" style="margin-right:130px ">
+							<button type="submit" value="OK" style="background-color:#99CC00 ">Simpan</button>
+						</div>
+					</form>
+						<div class="clear"></div>
+					<br /><br /><br /><br />
+					</div>
+					<div class="clear"></div>
+					
+					<div class="col col_bgcolor2">
+						Pendidikan
+					</div>
+					<div class="clear"></div>
+					<br /> <br /><br />
+					<div class="col" style="padding-left:80px; width:900px ">
+					<form onSubmit="return validasi();">
+						<b>Nama Perguruan Tinggi<font color="#FF0000">*</font></b>
+							<input type="text" size="60px" maxlength="60" id="PT"
+								onKeyUp="validasi_Element(this);" /><br /><br /><br />
+						<b>Nama Fakultas<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+							<input type="text" size="60px" maxlength="60" id="fakultas"
+								onKeyUp="validasi_Element(this);" /><br /><br /><br />
+						<b>Nama Jurusan<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;
+							<input type="text" size="60px" maxlength="60" id="jurusan"
+								onKeyUp="validasi_Element(this);" /><br /><br /><br />
+						<b>Tanggal Masuk<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;
+							<span id="blnMasuk"></span>
+							&nbsp; &nbsp;
+							
+							<span id="thnMasuk"></span>
+							<br /><br /><br />
+						<b>Tanggal Lulus<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;
+							<span id="blnKeluar"></span>
+							&nbsp; &nbsp;
+							
+							<span id="thnKeluar"></span>
+							&nbsp; &nbsp;
+							<br /><br /><br />
+							
+						<b>Strata<font color="#FF0000">*</font> &nbsp; &nbsp; </b> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<select id="strata" onChange="validasi_Element(this);">
+							<option value=""> -------- </option>
+							<option value="D3">D3/Setara</option>
+							<option value="S1">S1/Setara</option>
+							<option value="S2">S2/Setara</option>
+							<option value="S3">S3/Setara</option>
+						</select>&nbsp; &nbsp;<br /><br /><br />
+						<b>Gelar<font color="#FF0000">*</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;
+							<input type="text" size="60px" maxlength="60" id="gelar"
+								onKeyUp="validasi_Element(this);" /><br /><br /><br />
+						<b>IPK<font color="#FF0000">*</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="text" size="60px" maxlength="60" id="ipk"
+								onKeyUp="validasi_Element(this);" /><br /><br /><br />
+						<b>Tema Tugas Akhir Anda<font color="#FF0000">*</font></b>
+							<input type="text" size="60px" maxlength="60" id="ta"
+								onKeyUp="validasi_Element(this);" /><br /><br /><br />
+						<div class="col_right" style="margin-right:130px ">
+							<button type="submit" value="OK" style="background-color:#99CC00 ">Simpan</button>
+						</div>
+					</form>
+					<br /><br /><br /><br /><br /><br />
+					</div>
+					<div class="clear"></div>
+					
+					<div class="col col_bgcolor2">
+						Esai
+					</div>
+					<div class="clear"></div>
+					<br /> <br />
+					<div class="col" style="padding-left:80px; text-align:center; margin-left:250px">
+						Silahkan masukkan esai Anda (.docx)<br /><br />
+						<button style="background-color:#999999; height:40px; padding:10px ">Browse</button>
+						<br />
+						<br />
+						<br />
+						<br />
+					</div>
+					<img src="picture/head.png" width="890px" height="3px" />
+					<br />
+					<br />
+					<br />
+				</div>
+				<div class="col_right" style="margin-right:100px ">
+					<button type="submit" style="border-radius:0; background-color:#FFCC66 ">Simpan</button>
+				
+				</div>
+				</div>
+				
+				<div class="clear"></div>
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+			</div>
+			<div class="clear"></div>
+			<div id="con">
+			<div id="footerMenu">
+				<div id="isiFooterMenu">
+				<div class="col col_H">
+            <h4>Tentang Kami</h4>
+            <ul class="nobullet">
+                <li><a href="visidanmisi.htm" style="text-decoration:none"><font color="#DDDDDD" size="-1">Visi dan Misi</font></a></li>
+				<li><a href="sejarah.htm" style="text-decoration:none"><font color="#DDDDDD" size="-1">Sejarah</font></a></li>
+				<li><a href="kemitraan.htm" style="text-decoration:none"><font color="#DDDDDD" size="-1">Kemitraan</font></a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+
+        <div class="col col_4">
+        	<h4>Kegiatan</h4>
+      		<ul class="nobullet">
+				<li><a href="lokasi.htm" style="text-decoration:none"><font color="#DDDDDD" size="-1">Lokasi</font></a></li>
+				<li><a href="galerifoto.htm" style="text-decoration:none"><font color="#DDDDDD" size="-1">Galeri Foto</font></a></li>
+			</ul>
+        </div>
+
+		<div class="col col_4">
+        	<h4>Mari Bergabung</h4>
+      		<ul class="nobullet">
+				<li><a href="volunteer.htm" style="text-decoration:none"><font color="#DDDDDD" size="-1">Volunteer</font></a></li>
+				<li><a href="pengajar.htm" style="text-decoration:none"><font color="#DDDDDD" size="-1">Pengajar</font></a></li>
+			</ul>
+        </div>
+
+        <div class="col col_3 no_mr">
+        	<h4>Ikuti Kami</h4>
+            <ul class="nobulletHK social">
+            	<li><a href="https://www.facebook.com" class="facebook" style="text-decoration:none">
+				<font color="#EEEEEE">Facebook</font></a></li>
+                <li><a href="https://www.twitter.com" class="twitter" style="text-decoration:none"><font color="#EEEEEE">Twitter</font></a></li>
+                <li><a href="https://www.youtube.com" class="youtube" style="text-decoration:none"><font color="#EEEEEE">Youtube</font></a></li>	
+                <li><a href="https://www.google.co.id" class="google" style="text-decoration:none"><font color="#EEEEEE">Google+</font></a></li>
+                <li><a href="https://www.vimeo.com" class="vimeo" style="text-decoration:none"><font color="#EEEEEE">Vimeo</font></a></li>
+                <li><a href="https://www.skype.com" class="skype" style="text-decoration:none"><font color="#EEEEEE">Skype</font></a></li>
+            </ul>
+        </div>
+		<div class="clear"></div>
+		<div class="clear"></div>
+				<div id="footer">
+				<div class="col">Copyright &copy; 2014 Komunitas Muda Indonesia | Design By Fernalia</div>
+				<div class="col_right">Web yang diadopsi dari <a href="https://www.indonesiamengajar.org/" style="text-decoration:underline ">Indonesia Mengajar</a> dan <a href="https://www.unicef.org/" style="text-decoration:underline ">UNICEF</a></div>
+				<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+	<!--</div>-->
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
+
+<script type="text/javascript">
+	function tgl(){
+		var tampilTgl = '<select id="tanggal" onChange="validasi_Element(this);">';
+		tampilTgl+= '<option value"">---</option>';
+		
+		for(var i = 1; i<=31; i++){
+			tampilTgl+= '<option value="';
+			tampilTgl+= i + '">' + i + '</option>';
+		}
+		tampilTgl+= '</select>';
+		window.document.getElementById("tgl").innerHTML = tampilTgl;
+	}
+	
+	function bulan(){
+		var bln = new Array("Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "Nopember", "Desember");
+		var tampilBln = '<select id="bulan" onChange="validasi_Element(this);">';
+		tampilBln += '<option value "">------------</option>';
+		
+		for(var i=0; i<12; i++){
+			tampilBln += '<option value="';
+			tampilBln += i + '">' + bln[i] + '</option>';
+		}
+		tampilBln+= '</select>';
+		window.document.getElementById("bulan").innerHTML = tampilBln;
+		window.document.getElementById("blnMasuk").innerHTML = tampilBln;
+		window.document.getElementById("blnKeluar").innerHTML = tampilBln;
+	}
+	
+	function tahun(){
+		var tampilThn = '<select id="tahun" onChange="validasi_Element(this);">';
+		tampilThn+= '<option value"">----</option>';
+		
+		for(var i = 1970; i<=2014; i++){
+			tampilThn+= '<option value="';
+			tampilThn+= i + '">' + i + '</option>';
+		}
+		tampilThn+= '</select>';
+		window.document.getElementById("tahun").innerHTML = tampilThn;
+		window.document.getElementById("thnMasuk").innerHTML = tampilThn;
+	}
+	
+	function thnKeluar(){
+		var tampilThn = '<select id="tahun" onChange="validasi_Element(this);">';
+		tampilThn+= '<option value"">----</option>';
+		
+		for(var i = 1970; i<=2050; i++){
+			tampilThn+= '<option value="';
+			tampilThn+= i + '">' + i + '</option>';
+		}
+		tampilThn+= '</select>';
+		window.document.getElementById("thnKeluar").innerHTML = tampilThn;
+	}
+	
+	function validasi_Element(element){
+			if(element.value==""){
+				element.style.borderColor="red";
+				return false;
+			}
+			else{
+				element.style.borderColor=null;
+				return true;
+			}
+		}
+		
+	function validasi(){
+			var namadpn=window.document.getElementById("nama1");
+			var namablkg=window.document.getElementById("nama3");
+			var gender=window.document.getElementById("jk");
+			var tgl=window.document.getElementById("tanggal");
+			var bln=window.document.getElementById("bulan");
+			var no_ktp=window.document.getElementById("ktp");
+			var w_blog=window.document.getElementById("blog");
+			var w_fb=window.document.getElementById("fb");
+			var w_twitter=window.document.getElementById("twitter");
+			var v_negara=window.document.getElementById("negara");
+			var v_HP=window.document.getElementById("HP");
+			var v_tlp=window.document.getElementById("tlp");
+			var v_almt=window.document.getElementById("almt");
+			var v_pt=window.document.getElementById("PT");
+			var v_fakultas=window.document.getElementById("fakultas");
+			var v_jurusan=window.document.getElementById("jurusan");
+			var v_gelar=window.document.getElementById("gelar");
+			var v_ipk=window.document.getElementById("ipk");
+			var v_ta=window.document.getElementById("ta");
+			
+			return ((validasi_Element(namadpn) && validasi_Element(namablkg) && validasi_Element(gender) && validasi_Element(tgl)
+				&& validasi_Element(bln) && validasi_Element(no_ktp)) && (validasi_Element(w_blog) && validasi_Element(w_fb)
+				&& validasi_Element(w_twitter)) && (validasi_Element(v_negara) && validasi_Element(v_HP) && validasi_Element(v_tlp)
+				&& validasi_Element(v_almt)) && (validasi_Element(v_pt) && validasi_Element(v_fakultas) && 
+				validasi_Element(v_jurusan) && validasi_Element(v_gelar) && validasi_Element(v_ipk) && validasi_Element(v_ta)));
+		}
+	
+	tgl();
+	bulan();
+	tahun();
+	thnKeluar();
+</script>

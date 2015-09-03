@@ -1,0 +1,4 @@
+<!ELEMENT peta (indonesia)*>
+<!ELEMENT indonesia (provinsi, kabupaten)>
+<!ELEMENT provinsi (#PCDATA)>
+<!ELEMENT kabupaten (#PCDATA)>
